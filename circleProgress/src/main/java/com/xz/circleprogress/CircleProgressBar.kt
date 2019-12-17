@@ -109,4 +109,11 @@ class CircleProgressBar(context: Context, attributes: AttributeSet) : View(conte
         this.maxProgress = max
         invalidate()
     }
+
+    /**
+     * 获取当前进度
+     */
+    fun getProgress():Int{
+        return progress
+    }
 }
