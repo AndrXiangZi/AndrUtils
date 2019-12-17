@@ -7,12 +7,13 @@
         android:orientation="vertical">
 
     <Button
-            android:onClick="btnCompress"
+            android:onClick="test"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="压缩图片"/>
+            android:text="Test"/>
 
-    <com.example.demoapplication.CircleProgressBar
+
+    <com.xz.circleprogress.CircleProgressBar
             android:id="@+id/mainCircleProgress"
             android:layout_marginStart="100dp"
             android:layout_width="100dp"

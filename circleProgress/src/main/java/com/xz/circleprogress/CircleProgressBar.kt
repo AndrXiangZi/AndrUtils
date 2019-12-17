@@ -96,9 +96,8 @@ class CircleProgressBar(context: Context, attributes: AttributeSet) : View(conte
      * 进度动画
      */
     private fun startAnimator() {
-        ObjectAnimator.ofInt(this, "progress").apply {
+        ObjectAnimator.ofInt(this, "progress",0,progress).apply {
             duration = animatorDuration
-            setIntValues(0, progress)
             start()
         }
     }
