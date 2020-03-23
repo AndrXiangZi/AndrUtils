@@ -1,2 +1,3 @@
+include ':pcm_record'
 include ':app', ':circleProgress'
 rootProject.name='DemoApplication'
